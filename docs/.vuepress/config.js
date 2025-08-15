@@ -33,6 +33,16 @@ export default {
           children: [
             '/articles/movie/article1.md',
             '/articles/movie/article2.md',
+            '/articles/movie/article3.md',
+            '/articles/movie/article4.md',
+            '/articles/movie/article5.md',
+            '/articles/movie/article6.md',
+            '/articles/movie/article7.md',
+            '/articles/movie/article8.md',
+            '/articles/movie/article9.md',
+            '/articles/movie/article10.md',
+            '/articles/movie/article11.md',
+            '/articles/movie/article12.md',
           ],
         },
       ],
@@ -53,8 +63,7 @@ export default {
       },
     },
   }),
-  // 缓存配置
-  cache: true,
+
   // 关闭调试日志
   debug: false,
 }
