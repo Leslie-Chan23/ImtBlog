@@ -1,0 +1,20 @@
+{
+  "name": "imtblog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs --host 0.0.0.0",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "imterritidoly",
+  "license": "ISC",
+  "description": "imterritidoly's blog",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.24",
+    "@vuepress/bundler-webpack": "^2.0.0-rc.24",
+    "@vuepress/theme-default": "^2.0.0-rc.24",
+    "vuepress": "^2.0.0-rc.24"
+  }
+}
