@@ -8,7 +8,8 @@
 ![这里本该有一张图片！！请刷新网页或者耐心等待~~]](/public/images/AManCalledOttoDecidedToDie2.png)
 *奥托从人人嫌到人人爱 最终死于hypertrophic cardiomyopathy（一种心脏过大导致的的遗传性心脏病 这把契诃夫之枪早在参军体检时就一闪而过） 所幸 他最终不是死于轻生 从社区中他得到了生的动力*
 ![这里本该有一张图片！！请刷新网页或者耐心等待~~]](/public/images/AManCalledOttoDecidedToDie1.png)
-*引乔哲一句——“白纸黑字之间 你的出现是第三种颜色” 事实上 奥托遇上妻子时 正是他一生中最黑暗的时候 母亲早早地离开了他 父亲又在两个月前溘然长逝 参军又被拒绝*
+*引乔哲一句——白纸黑字之间 你的出现是第三种颜色。 
+ 事实上 奥托遇上妻子时 正是他一生中最黑暗的时候 母亲早早地离开了他 父亲又在两个月前溘然长逝 参军又被拒绝*
 ![这里本该有一张图片！！请刷新网页或者耐心等待~~]](/public/images/AManCalledOttoDecidedToDie5.png)
 *奥托热衷于探究事物之理 热衷于有条不紊的生活 他每日例行的round也正是为着社区的正常和谐运转*
 ![这里本该有一张图片！！请刷新网页或者耐心等待~~]](/public/images/AManCalledOttoDecidedToDie4.png)
