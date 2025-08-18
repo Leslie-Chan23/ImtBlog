@@ -7,7 +7,7 @@ export default {
   // 网站描述
   description: '个人博客网站',
   // 部署站点的基础路径
-  base: '/',
+  base: '/ImtBlog/',
   // 主题配置
   theme: defaultTheme({
     // 导航栏配置

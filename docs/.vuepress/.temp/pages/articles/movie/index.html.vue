@@ -5,14 +5,14 @@
 <li><RouteLink to="/articles/movie/article1.html">牯岭街少年杀人事件</RouteLink></li>
 <li><RouteLink to="/articles/movie/article2.html">蓝色大门</RouteLink></li>
 <li><RouteLink to="/articles/movie/article3.html">天堂电影院</RouteLink></li>
-<li><RouteLink to="/articles/movie/article4.html">4</RouteLink></li>
-<li><RouteLink to="/articles/movie/article5.html">5</RouteLink></li>
-<li><RouteLink to="/articles/movie/article6.html">6</RouteLink></li>
-<li><RouteLink to="/articles/movie/article7.html">7</RouteLink></li>
-<li><RouteLink to="/articles/movie/article8.html">8</RouteLink></li>
-<li><RouteLink to="/articles/movie/article9.html">n</RouteLink></li>
-<li><RouteLink to="/articles/movie/article10.html">n</RouteLink></li>
-<li><RouteLink to="/articles/movie/article11.html">n</RouteLink></li>
+<li><RouteLink to="/articles/movie/article4.html">死亡诗社</RouteLink></li>
+<li><RouteLink to="/articles/movie/article5.html">搏击俱乐部</RouteLink></li>
+<li><RouteLink to="/articles/movie/article6.html">绿皮书</RouteLink></li>
+<li><RouteLink to="/articles/movie/article7.html">大红灯笼高高挂</RouteLink></li>
+<li><RouteLink to="/articles/movie/article8.html">源代码</RouteLink></li>
+<li><RouteLink to="/articles/movie/article9.html">末代皇帝</RouteLink></li>
+<li><RouteLink to="/articles/movie/article10.html">一一</RouteLink></li>
+<li><RouteLink to="/articles/movie/article11.html">生无可恋的奥托</RouteLink></li>
 <li><RouteLink to="/articles/movie/article12.html">n</RouteLink></li>
 </ul>
 </div></template>
