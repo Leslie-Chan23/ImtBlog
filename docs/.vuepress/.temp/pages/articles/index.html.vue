@@ -16,7 +16,7 @@
 <li><RouteLink to="/articles/movie/article12.html">n</RouteLink></li>
 </ul>
 <h2 id="更多分类" tabindex="-1"><a class="header-anchor" href="#更多分类"><span>更多分类</span></a></h2>
-<p>您可以根据需要添加更多分类和文章链接�</p>
+<p>您可以根据需要添加更多分类和文章链接。</p>
 </div></template>
 
 
