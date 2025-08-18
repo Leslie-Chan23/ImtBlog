@@ -1,0 +1,65 @@
+name: Release Backup Artifacts
+
+on:
+  push:
+    tags:
+      - 'backup-*'
+
+permissions:
+  contents: write
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install
+        run: npm ci
+
+      - name: Build site
+        run: npm run docs:build
+
+      - name: Create artifacts directory
+        run: mkdir -p artifacts
+
+      - name: Zip repository (excluding node_modules and git)
+        run: |
+          zip -r artifacts/repo-main.zip . -x "node_modules/*" -x ".git/*" -x "backups/*"
+
+      - name: Zip built site (dist)
+        run: |
+          cd docs/.vuepress
+          zip -r ../../artifacts/site-dist.zip dist
+
+      - name: Fetch gh-pages and package site (if exists)
+        run: |
+          if git ls-remote --exit-code --heads origin gh-pages; then
+            git fetch origin gh-pages:gh-pages
+            git worktree add ../wt-gh-pages gh-pages
+            cd ../wt-gh-pages
+            zip -r ../artifacts/site-gh-pages.zip .
+            cd -
+            git worktree remove ../wt-gh-pages --force
+          else
+            echo "gh-pages not found, skipping"
+          fi
+
+      - name: Create GitHub Release and upload assets
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            artifacts/repo-main.zip
+            artifacts/site-dist.zip
+            artifacts/site-gh-pages.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
