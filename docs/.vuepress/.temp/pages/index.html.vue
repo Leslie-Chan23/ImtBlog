@@ -3,7 +3,7 @@
 <h2 id="文章分类" tabindex="-1"><a class="header-anchor" href="#文章分类"><span>文章分类</span></a></h2>
 <ul>
 <li><RouteLink to="/articles/movie/">movie</RouteLink></li>
-<li><RouteLink to="/articles/category2/">分类2</RouteLink></li>
+<li><RouteLink to="/articles/category2/">nothing</RouteLink></li>
 </ul>
 <h2 id="关于我" tabindex="-1"><a class="header-anchor" href="#关于我"><span>关于我</span></a></h2>
 <p><RouteLink to="/about/">了解更多</RouteLink></p>

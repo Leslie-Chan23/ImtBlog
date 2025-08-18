@@ -5,7 +5,7 @@
 ## 文章分类
 
 - [movie](articles/movie/)
-- [分类2](articles/category2/)
+- [nothing](articles/category2/)
 
 ## 关于我
 
