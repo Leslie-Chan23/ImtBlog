@@ -2,11 +2,11 @@ export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"C:/Users/14408/ImtBlog/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"欢迎来到 ImtBlog"} }],
-  ["/articles/", { loader: () => import(/* webpackChunkName: "articles_index.html" */"C:/Users/14408/ImtBlog/docs/.vuepress/.temp/pages/articles/index.html.js"), meta: {"title":"文章列表"} }],
   ["/about/", { loader: () => import(/* webpackChunkName: "about_index.html" */"C:/Users/14408/ImtBlog/docs/.vuepress/.temp/pages/about/index.html.js"), meta: {"title":"关于我"} }],
+  ["/articles/", { loader: () => import(/* webpackChunkName: "articles_index.html" */"C:/Users/14408/ImtBlog/docs/.vuepress/.temp/pages/articles/index.html.js"), meta: {"title":"文章列表"} }],
   ["/articles/movie/article1.html", { loader: () => import(/* webpackChunkName: "articles_movie_article1.html" */"C:/Users/14408/ImtBlog/docs/.vuepress/.temp/pages/articles/movie/article1.html.js"), meta: {"title":"A Brighter Summer Day"} }],
   ["/articles/movie/article10.html", { loader: () => import(/* webpackChunkName: "articles_movie_article10.html" */"C:/Users/14408/ImtBlog/docs/.vuepress/.temp/pages/articles/movie/article10.html.js"), meta: {"title":"Yi Yi"} }],
-  ["/articles/movie/article11.html", { loader: () => import(/* webpackChunkName: "articles_movie_article11.html" */"C:/Users/14408/ImtBlog/docs/.vuepress/.temp/pages/articles/movie/article11.html.js"), meta: {"title":"A Man Called Otto Decided To Die"} }],
+  ["/articles/movie/article11.html", { loader: () => import(/* webpackChunkName: "articles_movie_article11.html" */"C:/Users/14408/ImtBlog/docs/.vuepress/.temp/pages/articles/movie/article11.html.js"), meta: {"title":"A Man Called Otto"} }],
   ["/articles/movie/article12.html", { loader: () => import(/* webpackChunkName: "articles_movie_article12.html" */"C:/Users/14408/ImtBlog/docs/.vuepress/.temp/pages/articles/movie/article12.html.js"), meta: {"title":"nothing"} }],
   ["/articles/movie/article2.html", { loader: () => import(/* webpackChunkName: "articles_movie_article2.html" */"C:/Users/14408/ImtBlog/docs/.vuepress/.temp/pages/articles/movie/article2.html.js"), meta: {"title":"Blue Gate Crossing"} }],
   ["/articles/movie/article3.html", { loader: () => import(/* webpackChunkName: "articles_movie_article3.html" */"C:/Users/14408/ImtBlog/docs/.vuepress/.temp/pages/articles/movie/article3.html.js"), meta: {"title":"Cinema Paradiso"} }],
