@@ -8,7 +8,7 @@
 
 
 ![爸爸交给我们的道理，道理未必错误，践行仰仗环境](/public/images/ABrighterSummerDay1.png)
-*爸爸交给我们的，道理未必错误，践行仰仗环境*
+*爸爸交给我们的，道理未必错误，践行仰仗环境。*
 
 ![浪漫的哈尼](/public/images/ABrighterSummerDay2.png)
 *浪漫的哈尼 战争与和平又何尝不是武侠呢？*
