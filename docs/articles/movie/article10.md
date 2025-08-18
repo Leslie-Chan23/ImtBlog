@@ -3,8 +3,8 @@
 可惜看的时候没截几张图  
 看罢只觉怅惘丝丝
 
-![](/public/images/YiYi2.png)
+![这里本来有一张图片！！请耐心等待~~]](/public/images/YiYi2.png)
 *敏敏所描绘的空心的感觉 在发现生活的一地鸡毛后于是转身向山里走去【doge】  
 回来却领悟山的后面还是山【欧阳锋所言极是】*
-![](/public/images/YiYi1.png)
+![这里本来有一张图片！！请耐心等待~~]](/public/images/YiYi1.png)
 *片中的这个人物相当超脱啊*

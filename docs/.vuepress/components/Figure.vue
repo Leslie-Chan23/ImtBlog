@@ -1,6 +1,6 @@
 <template>
   <div class="figure-container">
-    <img :src="src" :alt="caption" :class="className">
+    <img :src="src" :alt="caption" :class="className" loading="lazy" decoding="async" fetchpriority="low">
     <figcaption v-if="caption">{{ caption }}</figcaption>
   </div>
 </template>
