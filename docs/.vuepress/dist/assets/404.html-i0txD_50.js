@@ -1,1 +1,0 @@
-import{_ as o}from"./plugin-vue_export-helper-DlAUqK2U.js";import{c as e,a as n,o as r}from"./app-zuiUiZUR.js";const a={};function s(c,t){return r(),e("div",null,t[0]||(t[0]=[n("p",null,"404 Not Found",-1)]))}const p=o(a,[["render",s]]),_=JSON.parse('{"path":"/404.html","title":"","lang":"en-US","frontmatter":{"layout":"NotFound"}}');export{p as comp,_ as data};

@@ -1,16 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="generator" content="VuePress 2.0.0-rc.24">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.24" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
     <title>ImtBlog</title><meta name="description" content="个人博客网站">
-    
-    <link rel="modulepreload" href="/assets/app-zuiUiZUR.js"><link rel="modulepreload" href="/assets/404.html-i0txD_50.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper-DlAUqK2U.js">
-    <link rel="prefetch" href="/assets/index.html-TFTgNIxG.js" as="script"><link rel="prefetch" href="/assets/index.html-DC8Wcgup.js" as="script"><link rel="prefetch" href="/assets/article1.html-DYOpMZGg.js" as="script"><link rel="prefetch" href="/assets/article2.html-vbvqNwLo.js" as="script">
+    <link rel="preload" href="/assets/style-DDay9qoz.css" as="style"><link rel="stylesheet" href="/assets/style-DDay9qoz.css">
+    <link rel="modulepreload" href="/assets/app-D3tBdYxx.js"><link rel="modulepreload" href="/assets/404.html-Cu2wJQV4.js">
+    <link rel="prefetch" href="/assets/index.html-CMoGM8Qt.js" as="script"><link rel="prefetch" href="/assets/index.html-BxuuPZ4J.js" as="script"><link rel="prefetch" href="/assets/index.html-BhnJ76i4.js" as="script"><link rel="prefetch" href="/assets/article1.html-BQiZM7aB.js" as="script"><link rel="prefetch" href="/assets/article10.html-CrhvLRJp.js" as="script"><link rel="prefetch" href="/assets/article11.html-5r0FOJGO.js" as="script"><link rel="prefetch" href="/assets/article12.html-COMFCB_I.js" as="script"><link rel="prefetch" href="/assets/article2.html-C8h3a3cL.js" as="script"><link rel="prefetch" href="/assets/article3.html-hMJ3_yGa.js" as="script"><link rel="prefetch" href="/assets/article4.html--QuXFmsb.js" as="script"><link rel="prefetch" href="/assets/article5.html-DvwX-Qak.js" as="script"><link rel="prefetch" href="/assets/article6.html-CuQd2Os6.js" as="script"><link rel="prefetch" href="/assets/article7.html-CPMmJ6Jy.js" as="script"><link rel="prefetch" href="/assets/article8.html-DFCIkJ-j.js" as="script"><link rel="prefetch" href="/assets/article9.html-iNGvRjVJ.js" as="script"><link rel="prefetch" href="/assets/index.html-C5lVlsCx.js" as="script">
   </head>
   <body>
-    <div id="app"><!----></div>
-    <script type="module" src="/assets/app-zuiUiZUR.js" defer></script>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-33d3430e><main class="page" data-v-33d3430e><div vp-content data-v-33d3430e><h1 data-v-33d3430e>404</h1><blockquote data-v-33d3430e>There&#39;s nothing here.</blockquote><a class="route-link" href="/" data-v-33d3430e>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-D3tBdYxx.js" defer></script>
   </body>
 </html>
