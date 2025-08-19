@@ -12,17 +12,17 @@ I mean,why ruin our lives?”</p>
 校方秉持的教育理念渴望的是可控的教育是温和的教育是中庸的教育，虽然在Mr.Keating的感染下Neil确实发现、挖掘了自身真正的热爱，并由于自身（这里就简单一点定义为其自身的缺陷）的性格上的拧巴转而走向悲剧。<br>
 但是，在校方死板的教育制度下又曾有或者说将有多少牺牲者呢（注意到主角团其实课业成绩都是相对优秀的 平时都会组织学习小组互帮互助 即使是他们，作为较为适应校方的教育制度甚至可以说是这套制度的受益者的学生依旧感到痛苦 感到迷惘 对Mr.Keating的教育方式感到向往）？<br>
 我们无法定论Mr.Keating与校方的教育理念孰优孰劣，但Mr.Keating的存在本身在这样的教育体制下无疑是一个异端，势将受到系统性压迫。</p>
-<p><img src="/public/images/DeadPoetsSociety3.png" alt="">
+<p><img src="/public/images/DeadPoetsSociety3.png" alt="这里本该有一张图片！！请刷新网页或者耐心等待~~">
 <em>事实上，片中的Mr.Perry偶然撞见Mr.Keating的教育方式后与Mr.Keating在午餐时进行了一段谈话。他认为Mr.Keating的教育方式不够realist，而后却又说出两句短诗（应该是引的某位诗人的诗 不过我没有查到出处），机敏的Mr.Keating自然以自创的两句短诗报以回应。</em><br>
 <em>据此我推测，也许Mr.Perry年轻时也以Mr.Keating这样的启蒙者自居（至少是对当下的教育制度不满的 故当其被称为犬儒主义者时尴尬惶恐若有所思，仿佛被过去的自己背刺了【笑】 随即其拿realist自居以为自己开脱）如今之Mr.Perry或许就是将来之Mr.Keating也犹未可知？</em><br>
 <em>影片后来的情节中他与Mr.Keating的互动能看出他认可了Mr.Keating。这次谈话结束时他脸上的笑容无疑寄托了他对Mr.Keating的期盼，他期盼这个年轻人能给这个死气沉沉的校园带来些什么。</em>
-<img src="/public/images/DeadPoetsSociety4.png" alt="">
+<img src="/public/images/DeadPoetsSociety4.png" alt="这里本该有一张图片！！请刷新网页或者耐心等待~~">
 <em>印象里Mr.Keating同样说过这句魔改的校训，不过我没有找到</em>
-<img src="/public/images/DeadPoetsSociety5.png" alt="">
+<img src="/public/images/DeadPoetsSociety5.png" alt="这里本该有一张图片！！请刷新网页或者耐心等待~~">
 <em>这是Mr.Keating对于搏击俱乐部的问题的解答【doge】</em>
-<img src="/public/images/DeadPoetsSociety2.png" alt="">
+<img src="/public/images/DeadPoetsSociety2.png" alt="这里本该有一张图片！！请刷新网页或者耐心等待~~">
 <em>站在课桌上的这张图每每给我一种众学生上吊的感觉 事实上恰恰相反 “上吊”的他们拥有着勇气与思想</em>
-<img src="/public/images/DeadPoetsSociety1.png" alt="">
+<img src="/public/images/DeadPoetsSociety1.png" alt="这里本该有一张图片！！请刷新网页或者耐心等待~~">
 <em>死亡诗社的开幕词</em></p>
 </div></template>
 

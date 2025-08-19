@@ -1,3 +1,16 @@
 import comp from "C:/Users/14408/ImtBlog/docs/.vuepress/.temp/pages/articles/movie/article5.html.vue"
-const data = JSON.parse("{\"path\":\"/articles/movie/article5.html\",\"title\":\"Fight Club\",\"lang\":\"en-US\",\"frontmatter\":{},\"git\":{\"updatedTime\":1755253411000,\"contributors\":[{\"name\":\"Leslie\",\"username\":\"Leslie\",\"email\":\"1440881060@qq.com\",\"commits\":1,\"url\":\"https://github.com/Leslie\"}],\"changelog\":[{\"hash\":\"b7ee2f43bf808528ba5da83cb1734ed7e56759e7\",\"time\":1755253411000,\"email\":\"1440881060@qq.com\",\"author\":\"Leslie\",\"message\":\"Initial backup\"}]},\"filePathRelative\":\"articles/movie/article5.md\"}")
+const data = JSON.parse("{\"path\":\"/articles/movie/article5.html\",\"title\":\"Fight Club\",\"lang\":\"en-US\",\"frontmatter\":{},\"git\":{\"updatedTime\":1755527334000,\"contributors\":[{\"name\":\"Leslie\",\"username\":\"Leslie\",\"email\":\"1440881060@qq.com\",\"commits\":4,\"url\":\"https://github.com/Leslie\"}],\"changelog\":[{\"hash\":\"307e1ef9904df3193bc49da462cc32ba417c2b94\",\"time\":1755527334000,\"email\":\"1440881060@qq.com\",\"author\":\"Leslie\",\"message\":\"Revert \\\"fix(images): use /images/ public path and correct DeadPoetsSociety1 -> DeadPoetsSociety\\\"\"},{\"hash\":\"9627da4e6cbddd52e00eae1c05e1cef77371120e\",\"time\":1755527055000,\"email\":\"1440881060@qq.com\",\"author\":\"Leslie\",\"message\":\"fix(images): use /images/ public path and correct DeadPoetsSociety1 -> DeadPoetsSociety\"},{\"hash\":\"c6b19e83dca057bc02ab1265cb1eebd9d2df734f\",\"time\":1755520550000,\"email\":\"1440881060@qq.com\",\"author\":\"Leslie\",\"message\":\"update：内容更新\"},{\"hash\":\"b7ee2f43bf808528ba5da83cb1734ed7e56759e7\",\"time\":1755253411000,\"email\":\"1440881060@qq.com\",\"author\":\"Leslie\",\"message\":\"Initial backup\"}]},\"filePathRelative\":\"articles/movie/article5.md\"}")
 export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

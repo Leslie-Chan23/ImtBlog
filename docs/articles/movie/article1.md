@@ -16,3 +16,4 @@
 ![小明你不争气啊！！](/public/images/ABrighterSummerDay3.png)
 *🦌般的小明寻找那个可以庇佑他的树 奔波于哈尼滑头乃至校医 遇到稚嫩的幼树小四 雷电劈下 轰然倒塌*
 
+<VisitorCount />

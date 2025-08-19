@@ -7,6 +7,6 @@
 <em>还好我的青春尚没有那么多孟克柔式困扰，只要操心张士豪操心的就行了，余下皆是欢声笑语。</em></p>
 <p><img src="/public/images/BlueGateCrossing2.png" alt="故事仍在继续">
 <em>恰到好处的关于青春的感受</em></p>
-</div></template>
+<VisitorCount /></div></template>
 
 
