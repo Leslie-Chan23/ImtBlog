@@ -11,5 +11,6 @@
 
 
 ![故事仍在继续](/public/images/BlueGateCrossing2.png)
-*恰到好处的关于青春的感受*
+*恰到好处的关于青春的感受*  
+
 有 <span id="busuanzi_page_pv">加载中...</span> 个小伙伴看过本文
