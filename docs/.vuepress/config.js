@@ -67,12 +67,6 @@ export default {
       },
       optimizeDeps: {
         include: ['vue'],
-      },
-      // 添加编译器选项
-      vue: {
-        compilerOptions: {
-          isCustomElement: (tag) => tag === 'Comment'
-        }
       }
     }
   }),
