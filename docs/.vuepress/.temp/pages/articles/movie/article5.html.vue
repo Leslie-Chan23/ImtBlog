@@ -2,6 +2,7 @@
 <p>简单写一下 累了
 <img src="/public/images/FightClub.png" alt="这里本来有一张图片！！请耐心等待~~">
 <em>死亡诗社对于成为millionares,movie god,rock star给出的方案是carpe diem(亦即seize the day)</em></p>
+<p>有 <span id="busuanzi_page_pv">加载中...请刷新~~~</span> 个小伙伴看过本文</p>
 </div></template>
 
 

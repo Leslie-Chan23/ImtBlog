@@ -1,6 +1,17 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 
+// 文章布局配置
+const articleLayoutPlugin = (options) => ({
+  name: 'article-layout-plugin',
+  extendsPage: (page) => {
+    // 为所有文章页面应用自定义布局
+    if (page.filePath?.includes('articles/')) {
+      page.frontmatter.layout = 'ArticleLayout'
+    }
+  }
+})
+
 export default {
   // 网站标题
   title: 'ImtBlog',
@@ -17,18 +28,9 @@ export default {
   theme: defaultTheme({
     // 导航栏配置
     navbar: [
-      {
-        text: '首页',
-        link: '/',
-      },
-      {
-        text: '文章',
-        link: '/articles/',
-      },
-      {
-        text: '关于',
-        link: '/about/',
-      },
+      { text: '首页', link: '/' },
+      { text: '文章', link: '/articles/' },
+      { text: '关于', link: '/about/' },
     ],
     // 侧边栏配置
     sidebar: {
@@ -66,9 +68,18 @@ export default {
       optimizeDeps: {
         include: ['vue'],
       },
-    },
+      // 添加编译器选项
+      vue: {
+        compilerOptions: {
+          isCustomElement: (tag) => tag === 'Comment'
+        }
+      }
+    }
   }),
-
+  // 插件配置
+  plugins: [
+    articleLayoutPlugin()
+  ],
   // 关闭调试日志
   debug: false,
 }

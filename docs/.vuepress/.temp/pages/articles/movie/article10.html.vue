@@ -6,6 +6,7 @@
 回来却领悟山的后面还是山【欧阳锋所言极是】</em>
 <img src="/public/images/YiYi1.png" alt="这里本该有一张图片！！请刷新网页或者耐心等待~~">
 <em>片中的这个人物相当超脱啊</em></p>
+<p>有 <span id="busuanzi_page_pv">加载中...请刷新~~~</span> 个小伙伴看过本文</p>
 </div></template>
 
 

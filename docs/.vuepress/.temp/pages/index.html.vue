@@ -1,4 +1,5 @@
-<template><div><h1 id="欢迎来到-imtblog" tabindex="-1"><a class="header-anchor" href="#欢迎来到-imtblog"><span>欢迎来到 ImtBlog</span></a></h1>
+<template><div><!-- 在首页添加评论区 -->
+<Comment /><h1 id="欢迎来到-imtblog" tabindex="-1"><a class="header-anchor" href="#欢迎来到-imtblog"><span>欢迎来到 ImtBlog</span></a></h1>
 <p>这是我的个人博客网站，记录我的学习和思考。</p>
 <h2 id="文章分类" tabindex="-1"><a class="header-anchor" href="#文章分类"><span>文章分类</span></a></h2>
 <ul>

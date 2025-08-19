@@ -10,6 +10,7 @@
 <em>浪漫的哈尼 战争与和平又何尝不是武侠呢？</em></p>
 <p><img src="/public/images/ABrighterSummerDay3.png" alt="小明你不争气啊！！">
 <em>🦌般的小明寻找那个可以庇佑他的树 奔波于哈尼滑头乃至校医 遇到稚嫩的幼树小四 雷电劈下 轰然倒塌</em></p>
-<VisitorCount /></div></template>
+<p>有 <span id="busuanzi_page_pv">加载中...请刷新~~~</span> 个小伙伴看过本文</p>
+</div></template>
 
 

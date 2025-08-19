@@ -1,9 +1,12 @@
 import { defineClientConfig } from '@vuepress/client'
 import Figure from './components/Figure.vue'
+import Comment from './components/Comment.vue'
 
 export default defineClientConfig({
   components: {
     Figure,
+    // 显式指定组件名称，确保大小写一致
+    'Comment': Comment
   },
   setup() {
     // 图片懒加载和优化设置

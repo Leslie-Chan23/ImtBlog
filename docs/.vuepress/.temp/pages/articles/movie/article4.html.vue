@@ -24,6 +24,7 @@ I mean,why ruin our lives?”</p>
 <em>站在课桌上的这张图每每给我一种众学生上吊的感觉 事实上恰恰相反 “上吊”的他们拥有着勇气与思想</em>
 <img src="/public/images/DeadPoetsSociety1.png" alt="这里本该有一张图片！！请刷新网页或者耐心等待~~">
 <em>死亡诗社的开幕词</em></p>
+<p>有 <span id="busuanzi_page_pv">加载中...请刷新~~~</span> 个小伙伴看过本文</p>
 </div></template>
 
 
