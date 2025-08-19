@@ -29,6 +29,8 @@
 </div>
 
 <script>
+// 检查是否在浏览器环境中运行（避免服务器端渲染时出错）
+if (typeof window !== 'undefined' && typeof document !== 'undefined') {
   // 等待DOM加载完成
   document.addEventListener('DOMContentLoaded', function() {
     // 获取容器
@@ -63,6 +65,7 @@
     // 添加到容器
     container.appendChild(script);
   });
+}
 </script>
 
 
