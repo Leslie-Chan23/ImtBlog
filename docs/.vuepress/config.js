@@ -1,5 +1,6 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
+import { commentPlugin } from '@vuepress/plugin-comment'
 
 // 文章布局配置
 const articleLayoutPlugin = (options) => ({
@@ -72,7 +73,35 @@ export default {
   }),
   // 插件配置
   plugins: [
-    articleLayoutPlugin()
+    articleLayoutPlugin(), // 这里需要添加逗号
+    commentPlugin({
+      // 使用giscus作为评论系统
+      provider: 'Giscus',
+      options: {
+        // 你的GitHub仓库
+        repo: 'imterritidoly/ImtBlog',
+        // 仓库ID，可以在giscus官网获取
+        repoId: 'R_kgDOKN7pFw',
+        // 讨论分类
+        category: 'General',
+        // 分类ID
+        categoryId: 'DIC_kwDOKN7pF84COoH2',
+        // 映射方式
+        mapping: 'pathname',
+        // 是否严格匹配路径
+        strict: '0',
+        // 是否启用反应表情
+        reactionsEnabled: '1',
+        // 是否发送元数据
+        emitMetadata: '0',
+        // 输入框位置
+        inputPosition: 'bottom',
+        // 主题
+        theme: 'light',
+        // 语言
+        lang: 'zh-CN',
+      },
+    }),
   ],
   // 关闭调试日志
   debug: false,

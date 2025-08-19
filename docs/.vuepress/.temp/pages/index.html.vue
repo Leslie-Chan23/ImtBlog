@@ -15,9 +15,8 @@
 <div id="comment-container" style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #eaecef;">
   <div id="giscus-container" class="comment-container"></div>
 </div>
-</div></template>
-
-<script>
+<!-- 移除以下代码 -->
+<!-- <script>
 // 检查是否在浏览器环境中运行（避免服务器端渲染时出错）
 if (typeof window !== 'undefined' && typeof document !== 'undefined') {
   // 等待DOM加载完成
@@ -55,4 +54,7 @@ if (typeof window !== 'undefined' && typeof document !== 'undefined') {
     container.appendChild(script);
   });
 }
-</script>
+</script> -->
+</div></template>
+
+
