@@ -11,7 +11,7 @@ export default {
   // 自定义 <head>，引入不蒜子统计脚本
   head: [
     ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }],
-    ['script', { async: true, src: '<script src="//api.busuanzi.cc/static/3.6.9/busuanzi.min.js" defer></script>' }]
+    ['script', { src: '//api.busuanzi.cc/static/3.6.9/busuanzi.min.js', defer: true }]
   ],
   // 主题配置
   theme: defaultTheme({
