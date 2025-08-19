@@ -1,39 +1,4 @@
 import { defineClientConfig } from '@vuepress/client'
-
-export default defineClientConfig({
-	enhance({ router }) {
-		const trigger = () => {
-			if (typeof window === 'undefined') return
-			const api = window.BUSUANZI || window.busuanzi
-			if (api && typeof api.fetch === 'function') {
-				api.fetch()
-				return
-			}
-			if (api && typeof api.load === 'function') {
-				api.load()
-			}
-		}
-
-		// 初次进入
-		setTimeout(trigger, 300)
-
-		// 每次路由切换后触发
-		router.afterEach(() => {
-			setTimeout(trigger, 300)
-		})
-	},
-	setup() {
-		// 再次兜底触发一次
-		if (typeof window !== 'undefined') {
-			setTimeout(() => {
-				const api = window.BUSUANZI || window.busuanzi
-				if (api && typeof api.fetch === 'function') api.fetch()
-			}, 800)
-		}
-	}
-})
-
-import { defineClientConfig } from 'vuepress/client'
 import Figure from './components/Figure.vue'
 
 export default defineClientConfig({
@@ -41,6 +6,7 @@ export default defineClientConfig({
     Figure,
   },
   setup() {
+    // 图片懒加载和优化设置
     const applyLazyAttrs = () => {
       if (typeof document === 'undefined') return
       const images = document.querySelectorAll('img')
@@ -50,26 +16,14 @@ export default defineClientConfig({
         if (!img.hasAttribute('fetchpriority')) img.setAttribute('fetchpriority', 'low')
       })
     }
-
-    // 添加不蒜子访问统计
+    
+    // 在客户端环境中应用图片优化
     if (typeof window !== 'undefined') {
-      // 插入不蒜子统计脚本
-      const insertBusuanzi = () => {
-        // 检查是否已经添加过不蒜子脚本
-        if (document.getElementById('busuanzi-script')) return
-        
-        const script = document.createElement('script')
-        script.id = 'busuanzi-script'
-        script.async = true
-        script.src = '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'
-        document.body.appendChild(script)
-      }
-
-      // 在页面加载完成后添加统计脚本
+      // 页面加载后应用图片优化
       if (document.readyState === 'complete' || document.readyState === 'interactive') {
-        insertBusuanzi()
+        applyLazyAttrs()
       } else {
-        window.addEventListener('DOMContentLoaded', insertBusuanzi, { once: true })
+        window.addEventListener('DOMContentLoaded', applyLazyAttrs, { once: true })
       }
     }
   }

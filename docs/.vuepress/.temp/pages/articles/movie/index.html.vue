@@ -13,7 +13,7 @@
 <li><RouteLink to="/articles/movie/article9.html">末代皇帝</RouteLink></li>
 <li><RouteLink to="/articles/movie/article10.html">一一</RouteLink></li>
 <li><RouteLink to="/articles/movie/article11.html">生无可恋的奥托</RouteLink></li>
-<li><RouteLink to="/articles/movie/article12.html">n</RouteLink></li>
+<li><RouteLink to="/articles/movie/article12.html">一个叫欧维的男人决定去死</RouteLink></li>
 </ul>
 </div></template>
 
