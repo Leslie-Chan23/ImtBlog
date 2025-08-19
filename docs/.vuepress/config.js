@@ -8,6 +8,11 @@ export default {
   description: '个人博客网站',
   // 部署站点的基础路径
   base: '/ImtBlog/',
+  // 自定义 <head>，引入不蒜子统计脚本
+  head: [
+    ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }],
+    ['script', { async: true, src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js' }]
+  ],
   // 主题配置
   theme: defaultTheme({
     // 导航栏配置

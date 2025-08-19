@@ -1,3 +1,38 @@
+import { defineClientConfig } from '@vuepress/client'
+
+export default defineClientConfig({
+	enhance({ router }) {
+		const trigger = () => {
+			if (typeof window === 'undefined') return
+			const api = window.BUSUANZI || window.busuanzi
+			if (api && typeof api.fetch === 'function') {
+				api.fetch()
+				return
+			}
+			if (api && typeof api.load === 'function') {
+				api.load()
+			}
+		}
+
+		// 初次进入
+		setTimeout(trigger, 300)
+
+		// 每次路由切换后触发
+		router.afterEach(() => {
+			setTimeout(trigger, 300)
+		})
+	},
+	setup() {
+		// 再次兜底触发一次
+		if (typeof window !== 'undefined') {
+			setTimeout(() => {
+				const api = window.BUSUANZI || window.busuanzi
+				if (api && typeof api.fetch === 'function') api.fetch()
+			}, 800)
+		}
+	}
+})
+
 import { defineClientConfig } from 'vuepress/client'
 import Figure from './components/Figure.vue'
 

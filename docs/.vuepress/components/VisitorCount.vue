@@ -1,49 +1,63 @@
 <template>
   <div class="visitor-count">
-    <span v-if="pageView !== null">本文阅读量：{{ pageView }}</span>
-    <span v-if="siteView !== null" class="site-view">站点总访问量：{{ siteView }}</span>
+    <span id="busuanzi_container_page_pv">本文阅读量：<span id="busuanzi_value_page_pv"></span></span>
+    <span id="busuanzi_container_site_pv" class="site-view">站点总访问量：<span id="busuanzi_value_site_pv"></span></span>
   </div>
 </template>
 
 <script>
 export default {
   name: 'VisitorCount',
-  data() {
-    return {
-      pageView: null,
-      siteView: null
+  mounted() {
+    this.initBusuanzi()
+  },
+  watch: {
+    '$route.fullPath'() {
+      // 路由变更后，等待视图更新再拉取
+      this.$nextTick(() => {
+        setTimeout(() => {
+          this.triggerFetch()
+        }, 200)
+      })
     }
   },
-  mounted() {
-    this.checkBusuanzi()
-  },
   methods: {
-    checkBusuanzi() {
-      // 轮询检查不蒜子脚本是否加载完成
-      const timer = setInterval(() => {
-        if (window.busuanzi) {
-          clearInterval(timer)
-          this.startCount()
+    initBusuanzi() {
+      const tryFetch = () => {
+        const api = window.BUSUANZI || window.busuanzi
+        if (api && typeof api.fetch === 'function') {
+          api.fetch()
+          return true
         }
-      }, 300)
-      
-      // 防止超时
-      setTimeout(() => {
-        clearInterval(timer)
-      }, 5000)
-    },
-    startCount() {
-      // 页面访问量
-      this.pageView = window.busuanzi.pageview.get()
-      // 站点访问量
-      this.siteView = window.busuanzi.siteuv.get()
-      
-      // 监听路由变化，更新页面访问量
-      window.addEventListener('vuepress:route-changed', () => {
-        setTimeout(() => {
-          this.pageView = window.busuanzi.pageview.get()
+        if (api && typeof api.load === 'function') {
+          api.load()
+          return true
+        }
+        return false
+      }
+
+      if (!tryFetch()) {
+        const timer = setInterval(() => {
+          if (tryFetch()) clearInterval(timer)
         }, 300)
-      })
+        setTimeout(() => clearInterval(timer), 8000)
+      }
+
+      const reFetch = () => {
+        // 等待新页面 DOM 渲染完成
+        requestAnimationFrame(() => {
+          setTimeout(() => {
+            tryFetch()
+          }, 200)
+        })
+      }
+
+      // 兼容性监听：VuePress 自定义事件 + 原生 popstate
+      window.addEventListener('vuepress:route-changed', reFetch)
+      window.addEventListener('popstate', reFetch)
+
+      // 暴露一个方法给 watcher 使用
+      this.triggerFetch = tryFetch
     }
   }
 }
