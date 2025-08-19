@@ -5,7 +5,11 @@ const path = require('path');
 const movieDirPath = path.join(__dirname, 'docs', 'articles', 'movie');
 
 // 定义要添加的访问统计代码
-const visitStatsCode = '有 <span id="busuanzi_page_pv">加载中...</span> 个小伙伴看过本文';
+const visitStatsCode = '有 <span id="busuanzi_page_pv">加载中...请刷新~~~</span> 个小伙伴看过本文';
+
+// 定义旧版访问统计代码的正则表达式模式
+// 这个正则表达式可以匹配任何包含busuanzi_page_pv的类似结构
+const oldVisitStatsPattern = /有\s*<span\s+id="busuanzi_page_pv">.*?<\/span>\s*个小伙伴看过本文/;
 
 // 读取movie目录下的所有文件
 fs.readdir(movieDirPath, (err, files) => {
@@ -32,21 +36,33 @@ fs.readdir(movieDirPath, (err, files) => {
         return;
       }
 
-      // 检查文件末尾是否已包含访问统计代码
+      let newContent = content;
+      let action = '';
+      
+      // 检查是否已包含新的访问统计代码
       if (content.trim().endsWith(visitStatsCode)) {
-        console.log(`${index + 1}/${mdFiles.length} ${file}: 已存在访问统计代码，跳过`);
+        action = '已存在最新访问统计代码，跳过';
+      } else if (oldVisitStatsPattern.test(content)) {
+        // 替换旧版访问统计代码
+        newContent = content.replace(oldVisitStatsPattern, visitStatsCode);
+        action = '成功替换旧版访问统计代码';
       } else {
-        // 在文件末尾添加访问统计代码
-        const newContent = content.trim() + '\n\n' + visitStatsCode + '\n';
-        
-        // 写入文件
+        // 在文件末尾添加新的访问统计代码
+        newContent = content.trim() + '\n\n' + visitStatsCode + '\n';
+        action = '成功添加访问统计代码';
+      }
+
+      // 如果内容有变化，则写入文件
+      if (newContent !== content) {
         fs.writeFile(filePath, newContent, 'utf8', (err) => {
           if (err) {
             console.error(`写入文件 ${file} 失败:`, err);
           } else {
-            console.log(`${index + 1}/${mdFiles.length} ${file}: 成功添加访问统计代码`);
+            console.log(`${index + 1}/${mdFiles.length} ${file}: ${action}`);
           }
         });
+      } else {
+        console.log(`${index + 1}/${mdFiles.length} ${file}: ${action}`);
       }
     });
   });

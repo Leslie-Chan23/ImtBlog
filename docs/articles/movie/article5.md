@@ -4,4 +4,4 @@
 ![这里本来有一张图片！！请耐心等待~~](/public/images/FightClub.png)
 *死亡诗社对于成为millionares,movie god,rock star给出的方案是carpe diem(亦即seize the day)*
 
-有 <span id="busuanzi_page_pv">加载中...</span> 个小伙伴看过本文
+有 <span id="busuanzi_page_pv">加载中...请刷新~~~</span> 个小伙伴看过本文

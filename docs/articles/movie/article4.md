@@ -31,4 +31,4 @@ I mean,why ruin our lives?”
 ![这里本该有一张图片！！请刷新网页或者耐心等待~~](/public/images/DeadPoetsSociety1.png)
 *死亡诗社的开幕词*
 
-有 <span id="busuanzi_page_pv">加载中...</span> 个小伙伴看过本文
+有 <span id="busuanzi_page_pv">加载中...请刷新~~~</span> 个小伙伴看过本文

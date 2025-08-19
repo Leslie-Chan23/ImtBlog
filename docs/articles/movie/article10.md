@@ -9,4 +9,4 @@
 ![这里本该有一张图片！！请刷新网页或者耐心等待~~](/public/images/YiYi1.png)
 *片中的这个人物相当超脱啊*
 
-有 <span id="busuanzi_page_pv">加载中...</span> 个小伙伴看过本文
+有 <span id="busuanzi_page_pv">加载中...请刷新~~~</span> 个小伙伴看过本文

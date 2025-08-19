@@ -5,4 +5,4 @@
 
 *有个小彩蛋是友谊地久天长这首曲子也正是来自庄士敦的故乡——苏格兰*
 
-有 <span id="busuanzi_page_pv">加载中...</span> 个小伙伴看过本文
+有 <span id="busuanzi_page_pv">加载中...请刷新~~~</span> 个小伙伴看过本文

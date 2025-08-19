@@ -5,4 +5,4 @@
 ![Don Shirlry的心声](/public/images/GreenBook.png)
 *Don Shirlry的心声*
 
-有 <span id="busuanzi_page_pv">加载中...</span> 个小伙伴看过本文
+有 <span id="busuanzi_page_pv">加载中...请刷新~~~</span> 个小伙伴看过本文

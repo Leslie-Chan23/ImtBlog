@@ -13,4 +13,4 @@
 ![这里本该有一张图片！！请刷新网页或者耐心等待~~](/public/images/RaiseTheRedLantern3.png)
 *一些压抑的恐怖的台词，体现颂莲的处境*
 
-有 <span id="busuanzi_page_pv">加载中...</span> 个小伙伴看过本文
+有 <span id="busuanzi_page_pv">加载中...请刷新~~~</span> 个小伙伴看过本文
