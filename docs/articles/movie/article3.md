@@ -12,3 +12,5 @@
 ![无数先者的锚已抛在沙滩上 故事还会继续吗](/public/images/CinemaParadiso2.png)
 *无数先者的锚已抛在沙滩上 故事还会继续吗  
 指引他向外面的世界 危险且缤纷*
+
+有 <span id="busuanzi_page_pv">加载中...</span> 个小伙伴看过本文

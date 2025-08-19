@@ -4,3 +4,5 @@
 可惜看的时候没有截全 写这篇文章的时候已经删掉了这部电影（受限于捉襟见肘的磁盘容量）【取证也干了】
 ![Don Shirlry的心声](/public/images/GreenBook.png)
 *Don Shirlry的心声*
+
+有 <span id="busuanzi_page_pv">加载中...</span> 个小伙伴看过本文
