@@ -1,5 +1,11 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
+import path from 'path'
+import { fileURLToPath } from 'url'
+
+// 解决ES模块中的__dirname问题
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 export default {
   // 网站标题
@@ -39,7 +45,7 @@ export default {
             '/articles/movie/article10.md',
             '/articles/movie/article11.md',
             '/articles/movie/article12.md',
-            '/articles/movie/article13.md',  // 添加这一行
+            '/articles/movie/article13.md',
           ],
         },
       ],
@@ -62,10 +68,14 @@ export default {
   }),
   // 关闭调试日志
   debug: false,
-  // 直接为所有文章页面设置布局
-  extendsPage: (page) => {
-    if (page.filePath?.includes('articles/')) {
-      page.frontmatter.layout = 'ArticleLayout'
-    }
-  }
+  // 移除下面这行别名配置
+  // alias: {
+  //   '@theme/layouts/ArticleLayout.vue': path.resolve(__dirname, './layouts/ArticleLayout.vue'),
+  // },
+  // 直接为所有文章页面设置布局（已注释）
+  // extendsPage: (page) => {
+  //   if (page.filePath?.includes('articles/')) {
+  //     page.frontmatter.layout = 'ArticleLayout'
+  //   }
+  // }
 }

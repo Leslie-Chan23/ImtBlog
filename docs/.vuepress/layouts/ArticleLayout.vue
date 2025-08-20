@@ -16,11 +16,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.comment-container {
-  margin-top: 2rem;
-  padding-top: 1rem;
-  border-top: 1px solid #eaecef;
-}
-</style>
