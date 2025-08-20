@@ -1,5 +1,7 @@
 import { viteBundler } from '@vuepress/bundler-vite'
-import { defaultTheme } from '@vuepress/theme-default'
+// 移除默认主题的导入
+// import { defaultTheme } from '@vuepress/theme-default'
+import { plumeTheme } from 'vuepress-theme-plume' // 导入plume主题
 import path from 'path'
 import { fileURLToPath } from 'url'
 
@@ -19,8 +21,8 @@ export default {
     ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }],
     ['script', { async: true, src: 'https://npm.onmicrosoft.cn/penndu@16.0.0/bsz.js' }]
   ],
-  // 主题配置
-  theme: defaultTheme({
+  // 主题配置 - 使用plume主题
+  theme: plumeTheme({
     // 导航栏配置
     navbar: [
       { text: '首页', link: '/' },
@@ -30,9 +32,9 @@ export default {
     // 侧边栏配置
     sidebar: {
       '/articles/': [
-        {
-          text: '文章分类',
-          children: [
+        { 
+          text: '文章分类', 
+          items: [
             '/articles/movie/article1.md',
             '/articles/movie/article2.md',
             '/articles/movie/article3.md',
@@ -46,12 +48,16 @@ export default {
             '/articles/movie/article11.md',
             '/articles/movie/article12.md',
             '/articles/movie/article13.md',
-          ],
+          ]
         },
       ],
       '/about/': [
         '/about/index.md',
       ],
+    },
+    // 其他plume主题特有的配置
+    plugins: {
+      // 可以添加plume主题特有的插件配置
     },
   }),
   // 打包器配置优化
@@ -67,15 +73,5 @@ export default {
     }
   }),
   // 关闭调试日志
-  debug: false,
-  // 移除下面这行别名配置
-  // alias: {
-  //   '@theme/layouts/ArticleLayout.vue': path.resolve(__dirname, './layouts/ArticleLayout.vue'),
-  // },
-  // 直接为所有文章页面设置布局（已注释）
-  // extendsPage: (page) => {
-  //   if (page.filePath?.includes('articles/')) {
-  //     page.frontmatter.layout = 'ArticleLayout'
-  //   }
-  // }
+  debug: false
 }
