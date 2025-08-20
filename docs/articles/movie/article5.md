@@ -1,3 +1,8 @@
+---
+title: article5
+createTime: 2025/08/15 11:31:26
+permalink: /article/cb4pxgtf/
+---
 # Fight Club
 
 简单写一下 累了（阿b有个分析的挺不错的[^为什么《搏击俱乐部》有毒？]）

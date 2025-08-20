@@ -1,3 +1,8 @@
+---
+title: article4
+createTime: 2025/08/15 11:31:21
+permalink: /article/k1jtlglc/
+---
 # Dead Poets Society
 
 o captain,my captain!  

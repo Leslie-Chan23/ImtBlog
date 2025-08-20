@@ -1,4 +1,9 @@
-﻿# Blue Gate Crossing
+---
+title: article2
+createTime: 2025/07/20 11:26:45
+permalink: /article/ftoa14up/
+---
+# Blue Gate Crossing
 
 非常好 满满青春味 使我的尸体微暖  
 关于蓝色大门，还有许多充满韵味的台词，可惜笔者观影时过于沉浸没怎么截图 譬如下面这段  

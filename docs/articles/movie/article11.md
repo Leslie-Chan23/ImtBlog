@@ -1,3 +1,8 @@
+---
+title: article11
+createTime: 2025/08/15 11:40:59
+permalink: /article/2hgglks0/
+---
 # A Man Called Otto
 杀死那个叫奥托的男人[doge]  
 笔者这里看的是美版 后来经朋友提醒才发现有两个版本  

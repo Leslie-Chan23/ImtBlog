@@ -1,4 +1,9 @@
-﻿# A Brighter Summer Day
+---
+title: article1
+createTime: 2025/07/20 11:26:44
+permalink: /article/q9lqgg7j/
+---
+# A Brighter Summer Day
 
 阳光灿烂的日子（雾）  
 不过本片确实有与其相似的地方  
