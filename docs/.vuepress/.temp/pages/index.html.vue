@@ -12,13 +12,6 @@
 <h1 id="技术栈" tabindex="-1"><a class="header-anchor" href="#技术栈"><span>技术栈</span></a></h1>
 <p>#博客</p>
 <p>#项目</p>
-<div id="comment-container" style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #eaecef;">
-  <Comment /><!-- 使用Comment组件 -->
-</div>
-<!-- 移除以下代码 -->
-<!-- <script> -->
-<!-- 这里是原来的注释代码，已经被我们的组件替代 -->
-<!-- </script> -->
 </div></template>
 
 

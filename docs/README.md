@@ -24,14 +24,5 @@
 
 #项目
 
-<div id="comment-container" style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #eaecef;">
-  <Comment /><!-- 使用Comment组件 -->
-</div>
-
-<!-- 移除以下代码 -->
-<!-- <script> -->
-<!-- 这里是原来的注释代码，已经被我们的组件替代 -->
-<!-- </script> -->
-
 
 
