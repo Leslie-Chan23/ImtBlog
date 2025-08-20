@@ -80,13 +80,13 @@ export default {
       provider: 'Giscus',
       options: {
         // 你的GitHub仓库
-        repo: 'imterritidoly/ImtBlog',
+        repo: 'Leslie-Chan23/ImtBlog',
         // 仓库ID，可以在giscus官网获取
-        repoId: 'R_kgDOKN7pFw',
+        repoId: 'R_kgDOPN_sYg',
         // 讨论分类
         category: 'General',
         // 分类ID
-        categoryId: 'DIC_kwDOKN7pF84COoH2',
+        categoryId: 'DIC_kwDOPN_sYs4CuVb2',
         // 映射方式
         mapping: 'pathname',
         // 是否严格匹配路径
@@ -98,7 +98,7 @@ export default {
         // 输入框位置
         inputPosition: 'bottom',
         // 主题
-        theme: 'light',
+        theme: 'preferred_color_scheme',
         // 语言
         lang: 'zh-CN',
       },
