@@ -2,12 +2,12 @@
   "hash": "a544782b",
   "configHash": "154eacc3",
   "lockfileHash": "dd5293fd",
-  "browserHash": "04f9b497",
+  "browserHash": "08ca69e4",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "0f25a8d6",
+      "fileHash": "5f4756ca",
       "needsInterop": false
     },
     "@vue/devtools-api": {
@@ -25,13 +25,22 @@
     "vue-router": {
       "src": "../../../../node_modules/vue-router/dist/vue-router.esm-bundler.js",
       "file": "vue-router.js",
-      "fileHash": "8396ed69",
+      "fileHash": "9d9f3fce",
+      "needsInterop": false
+    },
+    "@giscus/vue": {
+      "src": "../../../../node_modules/@giscus/vue/dist/index.js",
+      "file": "@giscus_vue.js",
+      "fileHash": "2f714981",
       "needsInterop": false
     }
   },
   "chunks": {
     "chunk-DDXJJ377": {
       "file": "chunk-DDXJJ377.js"
+    },
+    "giscus-Ci9LqPcC-OV6IBXWV": {
+      "file": "giscus-Ci9LqPcC-OV6IBXWV.js"
     }
   }
 }

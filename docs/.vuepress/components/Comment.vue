@@ -1,3 +1,15 @@
+<script>
+// 修改为默认导入语法
+import Giscus from '@giscus/vue'
+
+export default {
+  name: 'Comment',
+  components: {
+    Giscus // 组件注册保持不变
+  }
+}
+</script>
+
 <template>
 	<Giscus
 		id="comments"
@@ -13,3 +25,4 @@
 		loading="lazy"
 	/>
 </template>
+
