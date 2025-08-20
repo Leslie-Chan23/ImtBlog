@@ -1,11 +1,9 @@
 import { defineClientConfig } from '@vuepress/client'
 import Figure from './components/Figure.vue'
-import SimpleComment from './components/SimpleComment.vue'
 
 export default defineClientConfig({
   components: {
-    Figure,
-    SimpleComment
+    Figure
   },
   setup() {
     // 图片懒加载和优化设置

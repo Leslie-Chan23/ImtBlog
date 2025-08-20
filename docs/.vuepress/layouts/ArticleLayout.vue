@@ -1,26 +1,18 @@
 <template>
-  <div class="article-layout">
-    <!-- 继承默认布局的内容 -->
-    <Layout>
-      <!-- 保留原始布局的所有内容 -->
-      <template #page-bottom>
-        <!-- 使用 GiscusComment 组件 -->
-        <GiscusComment />
-        <slot name="page-bottom" />
-      </template>
-    </Layout>
-  </div>
+  <Layout>
+    <template #page-bottom>
+      <slot name="page-bottom" />
+    </template>
+  </Layout>
 </template>
 
 <script>
 import { Layout } from '@vuepress/theme-default'
-import GiscusComment from '../components/GiscusComment.vue'
 
 export default {
   name: 'ArticleLayout',
   components: {
-    Layout,
-    GiscusComment
+    Layout
   }
 }
 </script>
