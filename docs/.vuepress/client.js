@@ -5,7 +5,6 @@ import Comment from './components/Comment.vue' // 导入Comment组件
 export default defineClientConfig({
   components: {
     Figure,
-    Comment // 注册Comment组件
   },
   setup() {
     // 图片懒加载和优化设置
