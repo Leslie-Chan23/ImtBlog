@@ -1,27 +1,26 @@
+<template>
+  <Layout>
+    <!-- 保留原始布局的所有内容 -->
+    <template #page-bottom>
+      <!-- 让 commentPlugin 自动处理评论区 -->
+      <slot name="page-bottom" />
+    </template>
+  </Layout>
+</template>
+
 <script>
-import { h } from 'vue'
 import { Layout } from '@vuepress/theme-default'
-import SimpleComment from '../components/SimpleComment.vue'
 
 export default {
   name: 'ArticleLayout',
-  extends: Layout,
   components: {
-    SimpleComment
-  },
-  slots: {
-    'page-bottom'() {
-      return [
-        h(SimpleComment),
-        // 保留原布局的page-bottom插槽内容
-        this.$slots['page-bottom']?.()
-      ]
-    }
+    Layout
   }
 }
 </script>
 
 <style scoped>
+/* 保留原有的样式 */
 .comment-container {
   margin-top: 2rem;
   padding-top: 1rem;
