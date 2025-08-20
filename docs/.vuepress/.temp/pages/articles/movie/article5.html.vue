@@ -1,11 +1,12 @@
 <template><div><h1 id="fight-club" tabindex="-1"><a class="header-anchor" href="#fight-club"><span>Fight Club</span></a></h1>
-<p>简单写一下 累了
+<p>简单写一下 累了（阿b有个分析的挺不错的<a href="https://www.bilibili.com/video/BV18zxseCEPj/?share_source=copy_web&amp;vd_source=85028746d21f712d55ccb19b328fbb9c" target="_blank" rel="noopener noreferrer">^为什么《搏击俱乐部》有毒？</a>）
 <img src="/public/images/FightClub.png" alt="这里本来有一张图片！！请耐心等待~~">
-<em>死亡诗社对于成为millionares,movie god,rock star给出的方案是carpe diem(亦即seize the day)</em></p>
+<em><RouteLink to="/articles/movie/article4.html">死亡诗社</RouteLink>对于成为millionares,movie god,rock star给出的方案是carpe diem(亦即seize the day)</em></p>
 <p>有 <span id="busuanzi_page_pv">加载中...请刷新~~~</span> 个小伙伴看过本文</p>
 <!-- 文章编辑时间信息 -->
 <p>首次编辑时间：202508151131
 最后编辑时间：202508191645</p>
-<!-- 编辑时间信息结束 --></div></template>
+<!-- 编辑时间信息结束 -->
+</div></template>
 
 

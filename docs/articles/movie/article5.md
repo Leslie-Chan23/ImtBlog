@@ -1,8 +1,11 @@
 # Fight Club
 
-简单写一下 累了
+简单写一下 累了（阿b有个分析的挺不错的[^为什么《搏击俱乐部》有毒？]）
 ![这里本来有一张图片！！请耐心等待~~](/public/images/FightClub.png)
-*死亡诗社对于成为millionares,movie god,rock star给出的方案是carpe diem(亦即seize the day)*
+*[死亡诗社](/articles/movie/article4.md)对于成为millionares,movie god,rock star给出的方案是carpe diem(亦即seize the day)*
+
+[^为什么《搏击俱乐部》有毒？]:https://www.bilibili.com/video/BV18zxseCEPj/?share_source=copy_web&vd_source=85028746d21f712d55ccb19b328fbb9c
+
 
 有 <span id="busuanzi_page_pv">加载中...请刷新~~~</span> 个小伙伴看过本文
 

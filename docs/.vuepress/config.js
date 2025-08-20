@@ -51,6 +51,7 @@ export default {
             '/articles/movie/article10.md',
             '/articles/movie/article11.md',
             '/articles/movie/article12.md',
+            '/articles/movie/article13.md',  // 添加这一行
           ],
         },
       ],
@@ -73,7 +74,7 @@ export default {
   }),
   // 插件配置
   plugins: [
-    articleLayoutPlugin(), // 这里需要添加逗号
+    articleLayoutPlugin(), // 这里添加逗号
     commentPlugin({
       // 使用giscus作为评论系统
       provider: 'Giscus',
