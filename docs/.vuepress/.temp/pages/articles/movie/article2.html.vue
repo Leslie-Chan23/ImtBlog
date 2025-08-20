@@ -8,6 +8,9 @@
 <p><img src="/public/images/BlueGateCrossing2.png" alt="故事仍在继续">
 <em>恰到好处的关于青春的感受</em></p>
 <p>有 <span id="busuanzi_page_pv">加载中...请刷新~~~</span> 个小伙伴看过本文</p>
-</div></template>
+<!-- 文章编辑时间信息 -->
+<p>首次编辑时间：202507201126
+最后编辑时间：202508191645</p>
+<!-- 编辑时间信息结束 --></div></template>
 
 

@@ -3,6 +3,9 @@
 <img src="/public/images/SourceCode.png" alt="这里本该有一张图片！！请刷新网页或者耐心等待~~">
 <em>设定</em></p>
 <p>有 <span id="busuanzi_page_pv">加载中...请刷新~~~</span> 个小伙伴看过本文</p>
-</div></template>
+<!-- 文章编辑时间信息 -->
+<p>首次编辑时间：202508151131
+最后编辑时间：202508191645</p>
+<!-- 编辑时间信息结束 --></div></template>
 
 

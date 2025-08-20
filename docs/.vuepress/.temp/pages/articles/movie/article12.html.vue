@@ -8,7 +8,14 @@
 奥托对猫的态度的变化更有层次，转变更缓<br>
 对门邻居也显得更有个性一点 至少有自己的脾气<br>
 旅行的事 奥托也做了铺垫 在正式开始讲述之前就闪回过一起看瀑布的画面</p>
+<p><img src="/public/images/AManCalledOve1.png" alt="">
+<em>Ove对于车的偏执</em>
+<img src="/public/images/AManCalledOve2.png" alt="">
+<em>Ove对于车的偏执 too</em></p>
 <p>有 <span id="busuanzi_page_pv">加载中...请刷新~~~</span> 个小伙伴看过本文</p>
-</div></template>
+<!-- 文章编辑时间信息 -->
+<p>首次编辑时间：202508151141
+最后编辑时间：202508201144</p>
+<!-- 编辑时间信息结束 --></div></template>
 
 

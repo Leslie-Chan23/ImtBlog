@@ -11,6 +11,9 @@
 <p><img src="/public/images/ABrighterSummerDay3.png" alt="小明你不争气啊！！">
 <em>🦌般的小明寻找那个可以庇佑他的树 奔波于哈尼滑头乃至校医 遇到稚嫩的幼树小四 雷电劈下 轰然倒塌</em></p>
 <p>有 <span id="busuanzi_page_pv">加载中...请刷新~~~</span> 个小伙伴看过本文</p>
-</div></template>
+<!-- 文章编辑时间信息 -->
+<p>首次编辑时间：202507201126
+最后编辑时间：202508191645</p>
+<!-- 编辑时间信息结束 --></div></template>
 
 
