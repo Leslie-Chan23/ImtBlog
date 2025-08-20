@@ -1,6 +1,5 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
-import { commentPlugin } from '@vuepress/plugin-comment'
 
 // 文章布局配置
 const articleLayoutPlugin = (options) => ({
@@ -75,23 +74,6 @@ export default {
   // 插件配置
   plugins: [
     articleLayoutPlugin(),
-    commentPlugin({
-      // 使用giscus作为评论系统
-      provider: 'Giscus',
-      options: {
-        repo: 'Leslie-Chan23/ImtBlog',
-        repoId: 'R_kgDOPN_sYg',
-        category: 'General',
-        categoryId: 'DIC_kwDOPN_sYs4CuVb2',
-        mapping: 'pathname',
-        strict: '0',
-        reactionsEnabled: '1',
-        emitMetadata: '0',
-        inputPosition: 'bottom',
-        theme: 'preferred_color_scheme',
-        lang: 'zh-CN',
-      },
-    }),
   ],
   // 关闭调试日志
   debug: false,

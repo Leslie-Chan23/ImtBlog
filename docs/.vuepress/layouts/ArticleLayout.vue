@@ -1,26 +1,31 @@
 <template>
-  <Layout>
-    <!-- 保留原始布局的所有内容 -->
-    <template #page-bottom>
-      <!-- 让 commentPlugin 自动处理评论区 -->
-      <slot name="page-bottom" />
-    </template>
-  </Layout>
+  <div class="article-layout">
+    <!-- 继承默认布局的内容 -->
+    <Layout>
+      <!-- 保留原始布局的所有内容 -->
+      <template #page-bottom>
+        <!-- 使用 GiscusComment 组件 -->
+        <GiscusComment />
+        <slot name="page-bottom" />
+      </template>
+    </Layout>
+  </div>
 </template>
 
 <script>
 import { Layout } from '@vuepress/theme-default'
+import GiscusComment from '../components/GiscusComment.vue'
 
 export default {
   name: 'ArticleLayout',
   components: {
-    Layout
+    Layout,
+    GiscusComment
   }
 }
 </script>
 
 <style scoped>
-/* 保留原有的样式 */
 .comment-container {
   margin-top: 2rem;
   padding-top: 1rem;

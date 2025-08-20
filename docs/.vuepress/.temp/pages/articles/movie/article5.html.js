@@ -1,16 +1,3 @@
 import comp from "C:/Users/14408/ImtBlog/docs/.vuepress/.temp/pages/articles/movie/article5.html.vue"
 const data = JSON.parse("{\"path\":\"/articles/movie/article5.html\",\"title\":\"Fight Club\",\"lang\":\"en-US\",\"frontmatter\":{\"layout\":\"ArticleLayout\"},\"git\":{\"updatedTime\":1755671824000,\"contributors\":[{\"name\":\"Leslie\",\"username\":\"Leslie\",\"email\":\"1440881060@qq.com\",\"commits\":6,\"url\":\"https://github.com/Leslie\"},{\"name\":\"Leslie-Chan23\",\"username\":\"Leslie-Chan23\",\"email\":\"1440881060@qq.com\",\"commits\":2,\"url\":\"https://github.com/Leslie-Chan23\"}],\"changelog\":[{\"hash\":\"b292bcfedfad3e1d5493478ba57cb5783e703b04\",\"time\":1755671824000,\"email\":\"1440881060@qq.com\",\"author\":\"Leslie-Chan23\",\"message\":\"腓尼基的更新 学习了一手markdown的用法\"},{\"hash\":\"feb95c250a6228040dfec9989e8e9d3a7835d3aa\",\"time\":1755662220000,\"email\":\"1440881060@qq.com\",\"author\":\"Leslie-Chan23\",\"message\":\"欧维和腓尼基的更新\"},{\"hash\":\"ae44b26e415100a14b02bf05468ff6b5ce5212d4\",\"time\":1755593167000,\"email\":\"1440881060@qq.com\",\"author\":\"Leslie\",\"message\":\"newerbusuanzi\"},{\"hash\":\"bbed422b3f232098de45a657843ac29b15fc4ecd\",\"time\":1755591487000,\"email\":\"1440881060@qq.com\",\"author\":\"Leslie\",\"message\":\"busuanziyuan\"},{\"hash\":\"307e1ef9904df3193bc49da462cc32ba417c2b94\",\"time\":1755527334000,\"email\":\"1440881060@qq.com\",\"author\":\"Leslie\",\"message\":\"Revert \\\"fix(images): use /images/ public path and correct DeadPoetsSociety1 -> DeadPoetsSociety\\\"\"},{\"hash\":\"9627da4e6cbddd52e00eae1c05e1cef77371120e\",\"time\":1755527055000,\"email\":\"1440881060@qq.com\",\"author\":\"Leslie\",\"message\":\"fix(images): use /images/ public path and correct DeadPoetsSociety1 -> DeadPoetsSociety\"},{\"hash\":\"c6b19e83dca057bc02ab1265cb1eebd9d2df734f\",\"time\":1755520550000,\"email\":\"1440881060@qq.com\",\"author\":\"Leslie\",\"message\":\"update：内容更新\"},{\"hash\":\"b7ee2f43bf808528ba5da83cb1734ed7e56759e7\",\"time\":1755253411000,\"email\":\"1440881060@qq.com\",\"author\":\"Leslie\",\"message\":\"Initial backup\"}]},\"filePathRelative\":\"articles/movie/article5.md\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
