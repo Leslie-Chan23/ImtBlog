@@ -1,4 +1,4 @@
-export const siteData = JSON.parse("{\"base\":\"/ImtBlog/\",\"lang\":\"en-US\",\"title\":\"ImtBlog\",\"description\":\"个人博客网站\",\"head\":[[\"meta\",{\"name\":\"referrer\",\"content\":\"no-referrer-when-downgrade\"}],[\"script\",{\"async\":true,\"src\":\"https://npm.onmicrosoft.cn/penndu@16.0.0/bsz.js\"}]],\"locales\":{}}")
+export const siteData = JSON.parse("{\"base\":\"/ImtBlog/\",\"lang\":\"zh-CN\",\"title\":\"ImtBlog\",\"description\":\"个人博客网站\",\"head\":[[\"meta\",{\"name\":\"referrer\",\"content\":\"no-referrer-when-downgrade\"}],[\"script\",{\"async\":true,\"src\":\"https://npm.onmicrosoft.cn/penndu@16.0.0/bsz.js\"}]],\"locales\":{}}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

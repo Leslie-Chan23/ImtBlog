@@ -1,5 +1,5 @@
 import comp from "C:/Users/14408/ImtBlog/docs/.vuepress/.temp/pages/index.html.vue"
-const data = JSON.parse("{\"path\":\"/\",\"title\":\"欢迎来到 ImtBlog\",\"lang\":\"en-US\",\"frontmatter\":{},\"readingTime\":{\"minutes\":0.24,\"words\":73},\"git\":{},\"filePathRelative\":\"README.md\",\"headers\":[],\"categoryList\":[]}")
+const data = JSON.parse("{\"path\":\"/\",\"title\":\"欢迎来到 ImtBlog\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"readingTime\":{\"minutes\":0.24,\"words\":73},\"git\":{},\"filePathRelative\":\"README.md\",\"headers\":[],\"categoryList\":[]}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

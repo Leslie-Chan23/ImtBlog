@@ -8,7 +8,7 @@ import * as clientConfig6 from 'C:/Users/14408/ImtBlog/node_modules/@vuepress/pl
 import * as clientConfig7 from 'C:/Users/14408/ImtBlog/node_modules/@vuepress-plume/plugin-search/lib/client/config.js'
 import * as clientConfig8 from 'C:/Users/14408/ImtBlog/docs/.vuepress/.temp/git/config.js'
 import * as clientConfig9 from 'C:/Users/14408/ImtBlog/node_modules/vuepress-theme-plume/lib/client/config.js'
-import * as clientConfig10 from 'C:/Users/14408/ImtBlog/docs/.vuepress/client.js'
+import * as clientConfig10 from 'C:/Users/14408/ImtBlog/docs/.vuepress/client.ts'
 
 export const clientConfigs = [
   clientConfig0,

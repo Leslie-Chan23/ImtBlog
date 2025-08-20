@@ -2,8 +2,9 @@ import { defineClientConfig } from '@vuepress/client'
 import Figure from './components/Figure.vue'
 
 export default defineClientConfig({
-  components: {
-    Figure,
+  enhance({ app }) {
+    // 正确的方式：在enhance函数中注册全局组件
+    app.component('Figure', Figure)
   },
   setup() {
     // 图片懒加载和优化设置
