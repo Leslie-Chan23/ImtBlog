@@ -1,6 +1,5 @@
 import { defineClientConfig } from '@vuepress/client'
 import Figure from './components/Figure.vue'
-import Comment from './components/Comment.vue' // 导入Comment组件
 
 export default defineClientConfig({
   components: {
