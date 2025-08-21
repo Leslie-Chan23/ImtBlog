@@ -1,5 +1,5 @@
 ﻿---
-title: A Brighter Summer Day
+title: article1
 createTime: 2025/07/20 11:26:44
 permalink: /article/q9lqgg7j/
 ---
