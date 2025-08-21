@@ -1,3 +1,8 @@
+---
+title: article10
+createTime: 2025/08/15 11:31:54
+permalink: /article/qcc78sym/
+---
 # Yi Yi
 
 可惜看的时候没截几张图  

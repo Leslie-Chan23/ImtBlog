@@ -1,3 +1,8 @@
+---
+title: article13
+createTime: 2025/08/20 11:26:03
+permalink: /article/67jcwqh7/
+---
 # The Phoenician Scheme
 
 韦斯安德森的新作    

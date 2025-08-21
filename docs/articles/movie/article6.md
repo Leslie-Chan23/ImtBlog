@@ -1,3 +1,8 @@
+---
+title: article6
+createTime: 2025/08/15 11:31:32
+permalink: /article/mbp5t7cx/
+---
 # Green Book
 本来想截那段经典的  
 “If I'm not black enough, and if I'm not white enough, and if I'm not man enough, then tell me , what am I?”  

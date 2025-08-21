@@ -1,3 +1,8 @@
+---
+title: article3
+createTime: 2025/08/15 11:27:05
+permalink: /article/hux4698c/
+---
 # Cinema Paradiso
 
 意大利作品 基本只看过  
